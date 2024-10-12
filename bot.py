@@ -73,9 +73,6 @@ async def on_message(message):
           channel = client.get_channel(1077500489962373201)
           await channel.send('출근했습니다')
 
-      if "노무현" in message.content:
-          print("1")
-          await message.channel.send('응애무현')
       if "퇴근" in message.content:
           print("퇴근")
           channel = client.get_channel('1077500489962373201')
